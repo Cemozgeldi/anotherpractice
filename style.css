@@ -1,0 +1,217 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body, html{
+    height: 100%;
+}
+.container input[type=text]{
+    float:inline-end;
+    padding: 2px;
+    border:none;
+    margin-top: 3px;
+    margin-right: 7px;
+    font-size: 17px;
+    width: 15%;
+    border-radius: 10px;
+
+}
+nav{
+    position: absolute;
+    height: 100px;
+    width: 100%;
+    text-align: center;
+    line-height: 140px;    
+    z-index: 2;
+}
+
+nav a{
+    color: rgb(23, 19, 11);
+    font-family: 'Rubik', sans-serif;
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: 10px;
+    padding: 5px 8px;
+    
+}
+nav a:hover{
+    background-color: blanchedalmond;
+    border-radius: 10px;
+}
+footer{
+    background-color: rgb(6, 6, 5);
+}
+
+.gorsel{
+    height: 100%;
+    background-color: lightblue;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.bant{
+    height: 50%;
+    background-color: rgb(117, 162, 117);
+}
+#gor1{
+    background-image: url("foto5.jpg");
+}
+
+#gor2{
+    background-image: url("foto2.jpg");
+}
+
+#gor3{
+    background-image: url("foto4.jpg");
+}
+.anasayfa{
+    position: absolute;
+    float: left;
+}
+
+.anayazi{
+    width: 100%;
+    height: 100%;
+    margin-top: 250px;
+    z-index: 1;
+    text-align: center;
+
+}
+.anaFiltre{
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    opacity: 0.34;
+}
+.anayazi h1{
+    font-family: 'Tiro Devanagari Marathi', serif;
+    font-size: 50px;
+    color: antiquewhite;
+
+}
+.anayazi p{
+    color: wheat;
+    font-size: 10px;
+    font-family: 'Rubik', sans-serif;
+    margin-bottom: 10px;
+}
+
+.anayazi span{ 
+    color: wheat;
+    padding: 10px 10px;
+    background-color: brown;
+    font-size: 12px;
+    font-family: 'Rubik', sans-serif;
+    border-radius: 5px;
+}
+
+.anayazi a{
+    text-decoration: none;
+}
+
+.anayazi span:hover{
+    background-color: white;
+    color:brown;
+    cursor:pointer
+}
+.ebautas{
+    position: absolute;
+    float: left;
+}
+.ebautasz{
+    width: 100%;
+    height: 100%;
+    margin-top: 50px;
+    z-index: 5;
+    text-align: center;
+}
+.ebautaszz{
+    background-color: black;
+    height: 50%;
+    z-index: 0;
+    opacity: 0.34;
+}
+.ebautasz h2{
+    font-family: 'Tiro Devanagari Marathi', serif;
+    font-size: 20px;
+    color: whitesmoke;
+}
+.ebautasz p{
+    color: wheat;
+    font-size: 10px;
+    font-family: 'Rubik', sans-serif;
+    margin-bottom: 50px;
+}
+.ebautasz span{ 
+    color: wheat;
+    padding: 10px 10px;
+    background-color: brown;
+    font-size: 12px;
+    font-family: 'Rubik', sans-serif;
+    border-radius: 5px;
+}
+.ebautasz a{
+    text-decoration: none;
+}
+.ebautasz span:hover{
+    background-color: wheat;
+    color: brown;
+}
+.sosyalbutonlar{
+	margin-top: 5px;
+	display: inline-block;
+	position: relative;
+	left: 20px;
+}
+	
+.sosyalbutonlar a  {
+  background:#a1a1a1;
+	text-decoration: none;
+	color: #FFF;
+	width: 40px;
+	height: 40px;
+	display: inline-block;
+	border-radius: 10px;
+	margin-right: 20px;
+	font-size: 30px;
+	overflow: hidden;
+	position: relative;
+	line-height: 40px;
+	text-align: center;
+}
+    
+.sosyalbutonlar a{  
+   transition: transform 0.4s linear 0s, 
+	 border-top-left-radius 0.1s linear 0s, 
+	 border-top-right-radius 0.1s linear 0.1s, 
+	 border-bottom-right-radius 0.1s linear 0.2s, 
+	 border-bottom-left-radius 0.1s linear 0.3s;
+ 	
+}
+
+.sosyalbutonlar .facebook:hover {
+      background-color: #3b5998;
+      transform: rotate(360deg);
+      border-radius: 50%;	 
+}
+
+  .sosyalbutonlar .twitter:hover   {
+      background-color: #00aced;
+      transform: rotate(360deg);
+      border-radius: 50%;	 
+}
+  
+
+
+ .sosyalbutonlar .linkedin:hover   {
+      background-color: #00aced;
+      transform: rotate(360deg);
+      border-radius: 50%;	 
+}
+
+ .sosyalbutonlar .github:hover   {
+      background-color: rgb(32, 31, 31);
+      transform: rotate(360deg);
+      border-radius: 50%;	 
+}
