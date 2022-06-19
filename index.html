@@ -1,64 +1,69 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Web Site</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Tiro+Devanagari+Marathi:ital@1&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-</head>
-<body>
-    
-    <nav>
-        <div class="container">
-            <input type="text" placeholder="Search..">
+<html lang="tr">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Web Site</title>
+
+        <!-- Main CSS -->
+        <link rel="stylesheet" href="./css/style.css">
+
+        <!-- Google API -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Tiro+Devanagari+Marathi:ital@1&display=swap" rel="stylesheet">
+
+        <!-- Font-Awesome CSS -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+
+    <body>
+        <nav class="pos-absolute text-center w-100">
+            <div class="container">
+                <input type="text" placeholder="Ara...">
+            </div>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#works">Works</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+            <a href="#services">Services</a>
+        </nav>
+
+        <div id="home" class="image">
+            <div class="home home-content pos-absolute left w-100 h-100 text-center">
+                <h1>Doğadan Odanıza</h1>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ex quos fugit nisi nulla, optio culpa sed est error neque nostrum aspernatur officiis impedit. Rem recusandae quae suscipit magni nam cum.</p>
+                <a href="https://www.linkedin.com/in/cem-%C3%B6zgeldi/" target="_blank"><span>get more info</span></a>
+            </div>
+            <div class="pos-absolute left overlay"></div>
         </div>
-    <a href="#">Home</a>
-    <a href="#bant1">About</a>
-    <a href="#gor2">Works</a>
-    <a href="#bant2">Portfolio</a>
-    <a href="#gor3">Contact</a>
-    <a href="#bant3">Services</a>
-<!--You can add any information to the other pages.I did 2 pages for example.-->
-</nav>
-<div id="gor1" class="gorsel">
-    <div class="anasayfa anayazi">
-        <h1>Doğadan Odanıza</h1>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ex quos fugit nisi nulla, optio culpa sed est error neque nostrum aspernatur officiis impedit. Rem recusandae quae suscipit magni nam cum.</p>
-        <a href="https://www.linkedin.com/in/cem-%C3%B6zgeldi/" target="_blank"><span>get more info</span></a>
-    </div>
-    <div class="anasayfa anaFiltre"></div>
-    
-</div>
-<div id="bant1" class="bant">
-    <div class="ebautas ebautasz">
-        <h2>Biz kimiz neler yapıyoruz?</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis omnis sapiente ex commodi ea, sed at inventore architecto molestias? Laboriosam.</p>
-        <a href="https://github.com/Cemozgeldi/Cemozgeldi" target="_blank"><span>Ne var ne yok?</span></a>
-    </div>
-    <div class="ebautas ebautaszz"></div>
-</div>
-<div id="gor2" class="gorsel"></div>
-<div id="bant2" class="bant"></div>
-<div id="gor3" class="gorsel"></div>
-<div id="bant3" class="bant"></div>
-<footer>
-    <div class="sosyalbutonlar">
 
-        <a href="https://www.facebook.com/cemozgeldi" target="_blank" class="facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-        <a href="https://twitter.com/COzgeldi" target="_blank" class="twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-        <a href="https://www.linkedin.com/in/cem-özgeldi" target="_blank" class="linkedin" ><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-        <a href="https://github.com/Cemozgeldi/Cemozgeldi" target="_blank" class="github"><i class="fa fa-github-square"></i></a>
-       
-  </div>
-</footer>
+        <div id="about" class="seperator">
+            <div class="pos-absolute left ebautasz w-100 h-100 text-center">
+                <h2>Biz kimiz neler yapıyoruz?</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis omnis sapiente ex commodi ea, sed at inventore architecto molestias? Laboriosam.</p>
+                <a href="https://github.com/Cemozgeldi/Cemozgeldi" target="_blank"><span>Ne var ne yok?</span></a>
+            </div>
+            <div class="pos-absolute left ebautaszz"></div>
+        </div>
 
-</body>
+        <div id="works" class="image"></div>
+        <div id="portfolio" class="seperator"></div>
+        <div id="contact" class="image"></div>
+        <div id="services" class="seperator"></div>
+
+        <footer>
+            <div class="socials-btn">
+                <a href="https://www.facebook.com/cemozgeldi" target="_blank" class="facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                <a href="https://twitter.com/COzgeldi" target="_blank" class="twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                <a href="https://www.linkedin.com/in/cem-özgeldi" target="_blank" class="linkedin"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                <a href="https://github.com/Cemozgeldi/Cemozgeldi" target="_blank" class="github"><i class="fa fa-github-square"></i></a>
+            </div>
+        </footer>
+    </body>
 </html>
