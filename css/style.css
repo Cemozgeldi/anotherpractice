@@ -1,0 +1,243 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body,
+html {
+    height: 100%;
+}
+
+.container input[type=text] {
+    padding: 5px;
+    border: none;
+    margin-top: 3px;
+    margin-right: 7px;
+    font-size: 17px;
+    width: 15%;
+    border-radius: 10px;
+
+}
+
+nav {
+    height: 100px;
+    line-height: 140px;
+    z-index: 2;
+}
+
+nav a {
+    color: rgb(23, 19, 11);
+    font-family: 'Rubik', sans-serif;
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: 10px;
+    padding: 5px 8px;
+
+}
+
+nav a:hover {
+    background-color: blanchedalmond;
+    border-radius: 10px;
+}
+
+footer {
+    background-color: rgb(6, 6, 5);
+}
+
+.image {
+    height: 100%;
+    background-color: lightblue;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.seperator {
+    height: 50%;
+    background-color: rgb(117, 162, 117);
+}
+
+#works {
+    background-image: url("../img/foto2.jpg");
+}
+
+#contact {
+    background-image: url("../img/foto4.jpg");
+}
+
+#home {
+    background-image: url("../img/foto5.jpg");
+}
+
+.home-content {
+    margin-top: 250px;
+    z-index: 1;
+}
+
+.home h1 {
+    font-family: 'Tiro Devanagari Marathi', serif;
+    font-size: 50px;
+    color: antiquewhite;
+
+}
+
+.home p {
+    color: wheat;
+    font-size: 10px;
+    font-family: 'Rubik', sans-serif;
+    margin-bottom: 10px;
+}
+
+.home span {
+    color: wheat;
+    padding: 10px 10px;
+    background-color: brown;
+    font-size: 12px;
+    font-family: 'Rubik', sans-serif;
+    border-radius: 5px;
+}
+
+.home a {
+    text-decoration: none;
+}
+
+.home span:hover {
+    background-color: white;
+    color: brown;
+    cursor: pointer
+}
+
+.ebautasz {
+    margin-top: 50px;
+    z-index: 5;
+}
+
+.ebautaszz {
+    background-color: black;
+    height: 50%;
+    z-index: 0;
+    opacity: 0.34;
+}
+
+.ebautasz h2 {
+    font-family: 'Tiro Devanagari Marathi', serif;
+    font-size: 20px;
+    color: whitesmoke;
+}
+
+.ebautasz p {
+    color: wheat;
+    font-size: 10px;
+    font-family: 'Rubik', sans-serif;
+    margin-bottom: 50px;
+}
+
+.ebautasz span {
+    color: wheat;
+    padding: 10px 10px;
+    background-color: brown;
+    font-size: 12px;
+    font-family: 'Rubik', sans-serif;
+    border-radius: 5px;
+}
+
+.ebautasz a {
+    text-decoration: none;
+}
+
+.ebautasz span:hover {
+    background-color: wheat;
+    color: brown;
+}
+
+.socials-btn {
+    margin-top: 5px;
+    display: inline-block;
+    position: relative;
+    left: 20px;
+}
+
+.socials-btn a {
+    background: #a1a1a1;
+    text-decoration: none;
+    color: #FFF;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    border-radius: 10px;
+    margin-right: 20px;
+    font-size: 30px;
+    overflow: hidden;
+    position: relative;
+    line-height: 40px;
+    text-align: center;
+}
+
+.socials-btn a {
+    transition: transform 0.4s linear 0s,
+        border-top-left-radius 0.1s linear 0s,
+        border-top-right-radius 0.1s linear 0.1s,
+        border-bottom-right-radius 0.1s linear 0.2s,
+        border-bottom-left-radius 0.1s linear 0.3s;
+
+}
+
+.socials-btn .facebook:hover {
+    background-color: #3b5998;
+    transform: rotate(360deg);
+    border-radius: 50%;
+}
+
+.socials-btn .twitter:hover {
+    background-color: #00aced;
+    transform: rotate(360deg);
+    border-radius: 50%;
+}
+
+.socials-btn .linkedin:hover {
+    background-color: #00aced;
+    transform: rotate(360deg);
+    border-radius: 50%;
+}
+
+.socials-btn .github:hover {
+    background-color: rgb(32, 31, 31);
+    transform: rotate(360deg);
+    border-radius: 50%;
+}
+
+/* UTILS */
+.pos-absolute {
+    position: absolute;
+
+}
+
+.left {
+    float: left;
+}
+
+.clear {
+    clear: both;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.h-100 {
+    height: 100%;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.overlay {
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    opacity: 0.34;
+}
+
+/* ########### */
